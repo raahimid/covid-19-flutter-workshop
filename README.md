@@ -3,6 +3,8 @@
 ### Goal
 
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
+![Covid 19 Demo](https://i.imgur.com/VJ0YsBo.mp4 "Covid 19 App")
+
 
 ### What you're learning 
 *  How to use Flutter themes to create coherent branding.
