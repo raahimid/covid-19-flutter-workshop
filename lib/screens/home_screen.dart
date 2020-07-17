@@ -11,9 +11,9 @@ class _HomeScreenState extends State<HomeScreen>
 {
   //TODO: Initialize the tab controller
   //TODO: Initialize tab controller state and dispose
+
   @override
   Widget build(BuildContext context) {
-    //TODO: Step 1 - Implement Build
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
