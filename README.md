@@ -1,12 +1,12 @@
-Alt-H4 COVID-19 Flutter Workshop
-======
+#### COVID-19 Flutter Workshop
+---
 
-Alt-H2 Goal
-======
+## Goal
+---
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
 
-Alt-H2 What you're learning 
-======
+## What you're learning 
+---
 *  How to use Flutter themes to create coherent branding.
 *  How to extract and refactor Flutter Widgets with a click of the button.
 *  How to pass functions as parameters and fields.
