@@ -1,10 +1,10 @@
-#### COVID-19 Flutter Workshop
+# COVID-19 Flutter Workshop
 
-## Goal
+### Goal
 
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
 
-## What you're learning 
+### What you're learning 
 *  How to use Flutter themes to create coherent branding.
 *  How to extract and refactor Flutter Widgets with a click of the button.
 *  How to pass functions as parameters and fields.
