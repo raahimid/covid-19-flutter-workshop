@@ -1,16 +1,20 @@
-# covidworkshopstub
+#COVID-19 Flutter Workshop
 
-COVID-19 Info App Tutorial Stub
+###Goal
 
-## Getting Started
+Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/raahimid/Flutter-Projects/blob/master/images/iamrich.png" width="300">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+###What you're learning
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*  How to use Flutter themes to create coherent branding.
+*  How to extract and refactor Flutter Widgets with a click of the button.
+*  How to pass functions as parameters and fields.
+*  How to use custom colour palettes by using hex codes.
+*  How to customise Flutter Widgets to achieve a specific design style.
+*  Understand Ternary Operators.
+*  Learn about composition vs. inheritance and the Flutter way of creating custom UI.
+*  Learn to extract data from an API
+
