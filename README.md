@@ -3,6 +3,7 @@
 ### Goal
 
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
+
 <img src="https://github.com/raahimid/Flutter-Projects/blob/master/images/COVID-19%20App.gif" width="300">
 
 
