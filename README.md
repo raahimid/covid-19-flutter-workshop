@@ -4,6 +4,7 @@
 
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
 ![image](https://drive.google.com/uc?export=view&id=1mOCJj92O87STpwNxUz5rjDY9ATaewbok = 250x250)
+<img src="https://drive.google.com/uc?export=view&id=1mOCJj92O87STpwNxUz5rjDY9ATaewbo" width="100">
 
 
 
