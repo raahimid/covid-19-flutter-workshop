@@ -1,13 +1,13 @@
-#COVID-19 Flutter Workshop
+# COVID-19 Flutter Workshop
 
-###Goal
+### Goal
 
 Build an application in Flutter that displays live COVID-19 data and provides tips on staying safe!
 
 <img src="https://github.com/raahimid/Flutter-Projects/blob/master/images/COVID-19%20App.gif" width="300">
 
 
-###What you're learning
+### What you're learning
 
 *  How to use Flutter themes to create coherent branding.
 *  How to extract and refactor Flutter Widgets with a click of the button.
