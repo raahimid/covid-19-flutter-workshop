@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-//Background Color
-//#081E3F
+class Palette {
+  static const Color primaryColor = Color(0xff081e3f);
 
-//tav indicators
+  static const Color tabColor = Color(0xFFEC6969);
 //#EC6969
 
-//call now button
-//#B71C1C
+  static const Color callNowColor = Color(0xFFB71C1C);
 
-//Get Tested Button
-//#14B5D0
+  static const Color getTestedColor = Color(0xFF14B5D0);
+
+
+}
