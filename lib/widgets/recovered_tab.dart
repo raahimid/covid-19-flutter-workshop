@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_covid_workshop_stub/widgets/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_covid_workshop_stub/data/data.dart';
 
 class RecoveredTab extends StatelessWidget {
   @override
@@ -26,12 +27,12 @@ class RecoveredTab extends StatelessWidget {
                   children: <Widget>[
                     StatsBoxes(
                       icon: Icons.public,
-                      data: '1,000,000',
+                      data: formatter.format(WorldData['recovered']).toString(),
                     ),
                     SizedBox(height: 20.0),
                     StatsBoxes(
                       icon: Icons.flag,
-                      data: '1,000',
+                      data: formatter.format(USData['recovered']).toString(),
                     ),
                   ],
                 ),

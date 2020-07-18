@@ -4,18 +4,31 @@ import 'package:flutter_covid_workshop_stub/config/palette.dart';
 import 'package:flutter_covid_workshop_stub/widgets/deaths_tab.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_covid_workshop_stub/widgets/widgets.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_covid_workshop_stub/data/data.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin{
+  TabController _tabController;
+
+  @override
+  void initState() {
+    _tabController = new TabController(vsync: this, length: 3);
+    super.initState();
+  }
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
-
     return Scaffold(
       backgroundColor: Palette.primaryColor,
       appBar: CustomAppBar(),
@@ -68,7 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         vertical: 10.0,
                         horizontal: 20.0,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        launch(('tel://800-232-4636'));
+                      },
                       color: Palette.callNowColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30.0),
@@ -91,7 +106,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         vertical: 10.0,
                         horizontal: 20.0,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        launch(('https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html'));
+                      },
                       color: Palette.getTestedColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30.0),
